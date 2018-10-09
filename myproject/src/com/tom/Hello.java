@@ -4,7 +4,7 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello world");
+		/*System.out.println("Hello world");
 		int age = 18;
 		System.out.println(age);
 		float height = 1.8f;
@@ -14,7 +14,17 @@ public class Hello {
 		System.out.println(height);
 		System.out.println(name);
 		System.out.println(grade);
-		System.out.println(weight);
+		System.out.println(weight);*/
+		
+		Person p = new Person(67.2f, 1.8f);
+		p.weight = 67.2f;
+		p.height = 1.8f;
+		System.out.println(p.bmi());
+		p.hello();
+		Person hank = new Person();
+//		Person jack = null;
+//		jack.hello();
+		
 	}
 
 }
