@@ -23,10 +23,12 @@ public class Hello {
 		p.hello();
 		//Person hank = new Person();
 		
-		String name = "Hank";
-		int english = 70;
-		int math = 90;
-		System.out.println(name + "\t" + english + "\t" + math + "\t" + (english+math)/2);
+		Student stu = new Student();
+		/*stu.name = "Hank";
+		stu.english = 70;
+		stu.math = 90;*/
+		
+		stu.print();
 //		Person jack = null;
 //		jack.hello();
 		
