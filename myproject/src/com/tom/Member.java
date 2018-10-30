@@ -3,7 +3,9 @@ package com.tom;
 public class Member {
 
 	System.out.print
-	int age;
+	int age = age;
 	String name; 
-	String nickName;	
+	String nickName;
+	
+	
 }
