@@ -11,7 +11,9 @@ public class Hello {
 		String name = scanner.nextLine();
 		System.out.println(name);*/
 		
-		
+		for(int i = 0; i < 3 ; i++){
+			System.out.println(i);
+		}
 		
 		
 		
@@ -60,13 +62,13 @@ public class Hello {
 //		double q = 3.1888543;
 //		System.out.printf("number1: %.2f" , l + q);
 		
-		while () {
+		/*while () {
 			
 		
 		Random random = new Random();
 		int secret = random.nextInt(100)+1;
 		System.out.println(secret);
-		}
+		}*/
 		
 		
 		
