@@ -6,12 +6,17 @@ import java.util.Scanner;
 public class Hello {
 
 	public static void main(String[] args) {
+		Student stu = new Student();
+		stu.name = "Hank";
+		stu.english = 70;
+		stu.math = 90;
+		
 /*		Scanner scanner = new Scanner(System.in);
 		System.out.println("Your name");
 		String name = scanner.nextLine();
 		System.out.println(name);*/
 		
-		for(int i = 0; i < 3 ; i++){
+		/*for(int i = 0; i < 3 ; i++){
 			System.out.println(i);
 		}
 		
@@ -38,10 +43,7 @@ public class Hello {
 		p.hello();
 		//Person hank = new Person();
 		
-		Student stu = new Student();
-		/*stu.name = "Hank";
-		stu.english = 70;
-		stu.math = 90;*/
+		
 		
 //		stu.print(); 
 //		Person jack = null;
